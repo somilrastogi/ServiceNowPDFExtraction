@@ -5,6 +5,7 @@ Extract PDFs from the ServiceNow, which can be used to extract any other documen
 This Python script is designed to efficiently download and organize "Viya 4" PDF documents directly from your ServiceNow instance. It's built for flexibility, allowing you to focus on a specific year's documents with ease.
 
 **How it Works:**
+
 **1) Year-Specific Focus:** At the very top of the script, you'll find a TARGET_YEAR variable. Simply change this to the year you want to process (e.g., "2024", "2025"), and the script will automatically adjust its search and saving behavior.
 
 **2) ServiceNow Integration:** The script uses OAuth 2.0 for secure authentication with your ServiceNow instance. It then queries the ServiceNow API for "request items" (RITMs) belonging to a specific assignment group and, critically, filters these requests by the TARGET_YEAR right at the source. This means it only retrieves data for the year you're interested in, saving time and bandwidth.
