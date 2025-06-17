@@ -17,7 +17,7 @@ This Python script is designed to efficiently download and organize "Viya 4" PDF
   It dynamically identifies the year within the PDF's content or filename.
   Only PDFs confirmed to be "Viya 4" and matching the TARGET_YEAR are saved.
     
-**Organized Saving: **Valid PDFs are saved into a dedicated folder structure, like Viya4_2025, ensuring your documents are neatly organized by year. It also prevents saving duplicate files.
+**Organized Saving:** Valid PDFs are saved into a dedicated folder structure, like Viya4_2025, ensuring your documents are neatly organized by year. It also prevents saving duplicate files.
 **Comprehensive Summary:** After processing all relevant items, the script provides a detailed summary of how many "Viya 4" PDFs were saved for your chosen year, along with counts for various skipped categories.
 
 **To Use This Script:**
